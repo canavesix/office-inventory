@@ -99,6 +99,7 @@
       </div>
     </div>
   </nav>
+
   <div class="container mt-4">
     <div class="row">
       <div class="col-md-6">
@@ -115,66 +116,65 @@
     </div>
     <hr>
 
-    
+    <br>
+    <h5>Cadastrar manualmente:</h5>
 
-            <br>
-            <h1>Oi isso é um teste ^^</h1>
-            <h5>Cadastrar manualmente:</h5>
-            <form action="_inserir_produto.php" method="post" style="margin-top: 20px">
-                <div class="form-group">
-                    <label>Programa</label>
-                    <input type="text" class="form-control" name="nroproduto" placeholder="Insira o número de série do equipamento." autocomplete="off">
-                </div>
+    <form action="_inserir_produto.php" method="post" style="margin-top: 20px">
+    <div class="form-group">
+        <label>Programa</label>
+        <input type="text" class="form-control" name="nroproduto" placeholder="Insira o número de série do equipamento." autocomplete="off">
+    </div>
 
-                  <div class="form-group">
-                      <label for="nomeproduto">CW:</label>
-                      <input type="text" class="form-control" id="nomeproduto" name="nomeproduto" placeholder="Insira o nome do produto" autocomplete="off" required>
-                    </div>
+    <div class="form-group">
+        <label for="nomeproduto">CW:</label>
+        <input type="text" class="form-control" id="nomeproduto" name="nomeproduto" placeholder="Insira o nome do produto" autocomplete="off" required>
+      </div>
 
-                    <div class="form-group">
-                      <label for="categoria">Email:</label>
-                    </div>
+      <div class="form-group">
+        <label for="categoria">Email:</label>
+      </div>
 
-                    <div class="form-group">
-                        <label for="computador"> Computador</label>
-                        <input type="number" class="form-control" name="quantidade" placeholder="Insira quantidade do produto" required>
-                    </div>
+      <div class="form-group">
+          <label for="computador"> Computador</label>
+          <input type="number" class="form-control" name="quantidade" placeholder="Insira quantidade do produto" required>
+      </div>
 
-                    <div class="form-group">
-                        <label>Setor</label>
-                        <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
-                    </div>
+      <div class="form-group">
+          <label>Setor</label>
+          <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
+      </div>
 
-                    <div class="form-group">
-                        <label>Tipo</label>
-                        <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
-                    </div>
+      <div class="form-group">
+          <label>Tipo</label>
+          <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
+      </div>
 
-                    <div class="form-group">
-                        <label>Centro Custo</label>
-                        <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
-                    </div>
+      <div class="form-group">
+          <label>Centro Custo</label>
+          <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
+      </div>
 
-                    <div class="form-group">
-                        <label>SU</label>
-                        <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
-                    </div>
+      <div class="form-group">
+          <label>SU</label>
+          <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
+      </div>
 
-                    <div class="form-group">
-                        <label>Nome</label>
-                        <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
-                    </div>
+      <div class="form-group">
+          <label>Nome</label>
+          <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
+      </div>
 
-                    <div class="form-group">
-                        <label>Status</label>
-                        <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
-                    </div>
+      <div class="form-group">
+          <label>Status</label>
+          <input type="text" class="form-control" name="setor" placeholder="Insira o setor de destino">
+      </div>
+    </form>
                     
+    <br>
 
-   <br>
       <button type="submit" id="botao" class="btn btn-primary" style="color: #fff;margin-right: 12px">Cadastrar</button>
       <a href="menu.php" role="button" class="btn btn-light">Voltar</a>
-   </div>
+    </div>
 </div>
 
         <script type="text/javascript" src="js/bootstrap.js"></script>
