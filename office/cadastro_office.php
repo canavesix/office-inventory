@@ -118,6 +118,7 @@
     
 
             <br>
+            <h1>Oi isso é um teste ^^</h1>
             <h5>Cadastrar manualmente:</h5>
             <form action="_inserir_produto.php" method="post" style="margin-top: 20px">
                 <div class="form-group">
